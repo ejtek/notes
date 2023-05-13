@@ -1,0 +1,62 @@
+#############
+# VIM
+#############
+
+(esc)				Enter command mode
+i					Insert mode
+v					Visual mode
+
+FILES & SEARCH
+^x^f				insert file from path
+^x^n				for just this file
+:%s/search/replace/gc	search and replace (g=reaplce all, c=confirmation)
+
+BUFFER
+:bn					Next buffer
+:bp					Previous buffer
+:bd					Delete buffer
+:badd				Adds new buffer in background
+:e					Edit file
+:r					Read file
+
+SPLIT WINDOW
+:split/vs			Split horizontally/vertically
+ctrl ww				Switch window
+
+NAVIGATION
+h, j, k, l			Move left, down, up, right
+G					Go to last line
+gg					Go to first line
+:7					Go to 7th line (etc)
+/text 				Go to "text"
+n					Repeat last search
+w					Go to next word
+0					go to beginning of line
+$					Go to end of line
+
+EDITING
+I					Insert at the beginning of line
+a					Append
+A					Append to end of line
+x					Delete character at cursor
+o					Opned new line below cursor
+O					Opend new line above cursor
+y					Cut current line
+yy					Copies current line
+p					Paste above cursor
+P					Paste below cursor
+dd 					Delete line
+dw		 			Delete word
+cw					Change word
+ct					Change to a character
+u					Undo last change
+.					Repeat last change
+
+
+SAVE & QUITTING
+:w					Save file
+:w "file"			Save as "file"
+:q					Quit
+:wq					Save and quit
+ZZ					Save and quit	
+:q!					Quit without saving

@@ -1,0 +1,43 @@
+#############
+# BANDIT
+#############
+
+ssh info
+host: bandit.labs.overthewire.org
+port: 2220
+
+bandit0	    	    bandit0	
+bandit0>1		    NH2SXQwcBdpmTEzi3bvBHMM9H66vVXj
+bantit1>2		    rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit2>3		    2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+bandit3>4		    lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+bandit4>5		    P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+bandit5>6		    z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+bandit6>7		    TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+bandit7>8		    EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+bandit8>9		    G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+bandit9>10	        6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+bandit10>11
+bandit11>12
+bandit12>13
+bandit13>14
+bandit14>15
+bandit15>16
+bandit16>17
+bandit17>18
+bandit18>19
+bandit19>20
+bandit20>21
+bandit21>22
+bandit22>23
+bandit23>24
+bandit24>25
+bandit25>26
+bandit26>27
+bandit27>28
+bandit28>29
+bandit29>30
+bandit30>31
+bandit31>32
+bandit32>33
+bandit33>34         null

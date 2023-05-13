@@ -1,0 +1,70 @@
+#############
+# NOTES
+#############
+
+Programming language hierarchy
+CPU -> Assembly -> C, C++ -> C#, Java, Swift -> Javascript, Python, Ruby -> HTML/CSS
+
+
+------
+apt-key export 5BCF1346 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/i2p2-key.gpg
+
+
+------
+python3 -m http.server 80
+python3 -m pyftpdlib -p 21 -w
+
+
+------
+mkdir virtual-python-env
+python3 -m venv project0
+bin/activate
+
+
+------
+ls *.py | entr python file_name
+
+
+------
+*apropos
+*2> /dev/null			 	    # directs standard error to the void
+lsof -u							# list open user files
+*pushd / popd
+ctrl + r						# reverse search
+ctrl + a,e,u					# line start, end and delete
+&& and ;						# to chain commands
+||						 	    # or 
+ctrl + k						# cut to the end of line from cursor
+ctrl + y						# paste
+ctrl + w 						# cut backwards by word
+alt  + .						# paste previous argument
+
+
+------
+# chmod
+000 = --- = 0
+001 = --x = 1
+010 = -w- = 2
+011 = -wx = 3
+100 = r-- = 4
+101 = r-x = 5
+110 = rw- = 6
+111 = rxw = 7
+
+
+------
+# archive
+tar -cvf new_name.tar file_name			# combine into archive, does not compress
+tar -tvf name_of_file.tar				# shows list of files inside tar
+tar -xvf name_of_file					# extract files 
+gzip name_of_file						# compress file
+gunzip name_of_file						# decompress file
+tar -czvf new_name.tar.gz file_name		# combine + compress
+
+
+------
+# systemctl
+systemctl is-enabled (service)
+systemctl enable/disable (service)
+systemctl start/stop (service)
+systemctl status/restart (service)

