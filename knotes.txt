@@ -11,6 +11,10 @@ apt-key export 5BCF1346 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/i2p2-key
 
 
 ------
+dpkg-reconfigure openssh-server
+
+
+------
 python3 -m http.server 80
 python3 -m pyftpdlib -p 21 -w
 
@@ -27,17 +31,17 @@ ls *.py | entr python file_name
 
 ------
 *apropos
-*2> /dev/null			 	    # directs standard error to the void
-lsof -u							# list open user files
+*2> /dev/null					# directs standard error to the void
+lsof -u			 			# list open user files
 *pushd / popd
-ctrl + r						# reverse search
+ctrl + r					# reverse search
 ctrl + a,e,u					# line start, end and delete
-&& and ;						# to chain commands
-||						 	    # or 
-ctrl + k						# cut to the end of line from cursor
-ctrl + y						# paste
-ctrl + w 						# cut backwards by word
-alt  + .						# paste previous argument
+&& and ;					# to chain commands
+||						# or 
+ctrl + k					# cut to the end of line from cursor
+ctrl + y					# paste
+ctrl + w 					# cut backwards by word
+alt  + .					# paste previous argument
 
 
 ------
@@ -55,10 +59,10 @@ alt  + .						# paste previous argument
 ------
 # archive
 tar -cvf new_name.tar file_name			# combine into archive, does not compress
-tar -tvf name_of_file.tar				# shows list of files inside tar
-tar -xvf name_of_file					# extract files 
-gzip name_of_file						# compress file
-gunzip name_of_file						# decompress file
+tar -tvf name_of_file.tar			# shows list of files inside tar
+tar -xvf name_of_file				# extract files 
+gzip name_of_file				# compress file
+gunzip name_of_file				# decompress file
 tar -czvf new_name.tar.gz file_name		# combine + compress
 
 
