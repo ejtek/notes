@@ -1,4 +1,4 @@
-hashcat -h
+hashcat -h cd
 
 locate wordlists > /usr/share/wordlists/
 
