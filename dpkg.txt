@@ -5,6 +5,11 @@
 apt list --installed
 apt search (package)
 
+#############
+*kali_dpkg*
+stegseek
+
+#############
 
 lsd
 neofetch

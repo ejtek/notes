@@ -11,6 +11,13 @@ FILES & SEARCH
 ^x^n				for just this file
 :%s/search/replace/gc	search and replace (g=reaplce all, c=confirmation)
 
+TABS
+vim -p from the command line opens multiple files 
+:tabedit <file>
+gt                  Back tab
+gT                  Forward tab
+<#>gt               Tab by number
+
 BUFFER
 :bn					Next buffer
 :bp					Previous buffer
@@ -20,7 +27,7 @@ BUFFER
 :r					Read file
 
 SPLIT WINDOW
-:split/vs			Split horizontally/vertically
+:split/vsplit		Split horizontally/vertically
 ctrl ww				Switch window
 
 NAVIGATION
