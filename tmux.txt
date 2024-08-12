@@ -28,23 +28,25 @@ bind-key h split-window -v
 # Easy config reload
 bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded."
 
+
 ------
-ORIGINAL CONFIG						# https://tmuxcheatsheet.com/
-tmux ls								# list-sessions
-tmux a 								# attach
-tmux a -t #
-tmux new -s "name"					# new session at start
+ORIGINAL CONFIG				# https://tmuxcheatsheet.com/
+tmux ls					# list-sessions
+tmux a 					# attach
+tmux a -t #tmux new -s "name"		# new session at start
+
+
 ------
-ctrl b 								# prefix
-up, down, left, right				# move between windows
-"									# vertical split
-%									# horizontal aplit
-x									# exit panes
-z									# zoom
-c									# new window
-n									# next window
-p									# previous window
-&									# close window
-,									# rename window
-$									# rename session
-s									# switch sessions
+ctrl b 					# prefix
+up, down, left, right			# move between windows
+"					# vertical split
+%					# horizontal aplit
+x					# exit panes
+z					# zoom
+c					# new window
+n					# next window
+p					# previous window
+&					# close window
+,					# rename window
+$					# rename session
+s					# switch sessions

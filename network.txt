@@ -2,7 +2,6 @@
 # NETWORKING
 #############
 
-https://freeproxyupdate.com/
 
 ------
 /etc/proxychains4.conf			# proxychains config
@@ -27,12 +26,11 @@ ip link set <interface> up/down
 
 
 ------
-# handshake
+# HANDSHAKE
 ipconfig/iwconfig
 airmon-ng start (wlan0)
-airodump-ng (wan0mon)			
-# note bssid, station, channel, beacon
-airodump-ng -c(channel) --bssid su(BSSID) -w (write file) (wlan0mon)
+airodump-ng (wan0mon)	# note bssid, station, channel, beacon	
+airodump-ng -c (channel) --bssid (BSSID) -w (write file) (wlan0mon)
 # kick off network to capture 4-way handshake
 aireplay-ng --deauth 0 -a (bssid) -c (station) wlan0mon
 # View capture.cap file in Wireshark (eapol filter)

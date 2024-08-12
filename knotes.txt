@@ -21,7 +21,7 @@ python3 -m pyftpdlib -p 21 -w
 
 ------
 mkdir virtual-python-env
-python3 -m venv project0
+python3 -m venv (project)
 bin/activate
 
 
@@ -30,18 +30,25 @@ ls *.py | entr python file_name
 
 
 ------
+sudo !!					# redo las command with sudo
+fc					# fix a long command in editor
+disown -a && exit			# exit terminal without killing process
+
+
+------
 *apropos
-*2> /dev/null					# directs standard error to the void
-lsof -u			 			# list open user files
+*2> /dev/null				# directs standard error to the void
+lsof -u			 		# list open user files
 *pushd / popd
-ctrl + r					# reverse search
-ctrl + a,e,u					# line start, end and delete
-&& and ;					# to chain commands
-||						# or 
-ctrl + k					# cut to the end of line from cursor
-ctrl + y					# paste
-ctrl + w 					# cut backwards by word
-alt  + .					# paste previous argument
+ctrl + r				# reverse search
+ctrl + a,e,u				# line start, end and delete
+&& and ;				# to chain commands
+||					# or 
+ctrl + u				# cut to the beginning of line from cursor
+ctrl + k				# cut to the end of line from cursor
+ctrl + w 				# cut backwards by word
+ctrl + y				# paste
+alt  + .				# paste previous argument
 
 
 ------
@@ -58,12 +65,12 @@ alt  + .					# paste previous argument
 
 ------
 # archive
-tar -cvf new_name.tar file_name			# combine into archive, does not compress
-tar -tvf name_of_file.tar			# shows list of files inside tar
-tar -xvf name_of_file				# extract files 
-gzip name_of_file				# compress file
-gunzip name_of_file				# decompress file
-tar -czvf new_name.tar.gz file_name		# combine + compress
+tar -cvf new_name.tar file_name		# combine into archive, does not compress
+tar -tvf name_of_file.tar		# shows list of files inside tar
+tar -xvf name_of_file			# extract files 
+gzip name_of_file			# compress file
+gunzip name_of_file			# decompress file
+tar -czvf new_name.tar.gz file_name	# combine + compress
 
 
 ------

@@ -8,7 +8,7 @@ apt search (package)
 #############
 *kali_dpkg*
 stegseek
-
+rlwrap
 #############
 
 lsd
