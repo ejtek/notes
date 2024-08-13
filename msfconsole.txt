@@ -1,0 +1,28 @@
+###########
+MSFCONSOLE
+###########
+
+sessions -i <id>          		 # interact with sessions 
+sessions -u <filename>    		 # save session 
+sessions -r <filename>  	 	 # restore session 
+
+hosts -R or services -R   	 	 # set module's RHOST with databse values
+setg RHOSTS x.x.x.x   		 	 # set global variable
+sessions -u <session_id>	         # upgrade shell to meterpreter
+exploit -z        			 # run and background
+
+###########
+PORTS
+###########
+
+21 FTP             			 # exploit/unix/ftp/vsftpd_234_backdoor
+            				 # auxiliary/scanner/ftp/ftp_login
+22 SSH            			 # auxiliary/scanner/ssh/ssh_login
+23 TELNET         			 # auxiliary/scanner/telnet/telnet_login
+25 SMTP         			 # auxiliary/scanner/smtp/smtp_enum
+80 HTTP          			 # auxiliary/scanner/http/http_version
+                 			 # exploit/multi/http/php_cgi_arg_injection
+139,445 SMB        			 # auxiliary/scanner/smb/smb_version
+              				 # exploit/multi/samba/usermap_script
+512,513,514 exec,login,tcpwrapped   	 # rsh-client (rlogin -l root <ip>)
+                  			 # rsh -l <ip> ifconfig
