@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 ### https://www.youtube.com/watch?v=egg-GoT5iVk&list=PLLKT__MCUeiwBa7d7F_vN1GUwz_2TmVQj&index=2
 
-""" This is a docstring note useful 
+""" This is a docstring note useful
 for documentation, program version, etc """
 
 # Help
@@ -13,7 +13,7 @@ help()
 # Print string
 print("Strings and things:")
 print('Hello world!')
-print("""Hi, this is 
+print("""Hi, this is
 a multi-line string!""")
 print("This is"+" a string")
 

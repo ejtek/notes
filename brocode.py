@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 ### https://www.youtube.com/watch?v=6VElWbND-zg&list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT&index=1
 
@@ -45,7 +45,7 @@
 
 ### BOOLEAN
 #online = True
-#for_sale = False 
+#for_sale = False
 #running = True
 #print(f"Are you online? {online}")
 #print(f"Is the item for sale? {for_sale}")

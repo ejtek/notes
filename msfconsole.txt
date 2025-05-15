@@ -2,14 +2,15 @@
 MSFCONSOLE
 ###########
 
-sessions -i <id>          		 # interact with sessions 
-sessions -u <filename>    		 # save session 
-sessions -r <filename>  	 	 # restore session 
+
+sessions -i <id>          		 # interact with sessions
+sessions -u <filename>    		 # save session
+sessions -r <filename>  	 	 # restore session
 
 hosts -R or services -R   	 	 # set module's RHOST with databse values
 setg RHOSTS x.x.x.x   		 	 # set global variable
-sessions -u <session_id>	         # upgrade shell to meterpreter
-exploit -z        			 # run and background
+sessions -u <session_id>	     # upgrade shell to meterpreter
+exploit -z        			     # run and background
 
 ###########
 PORTS
