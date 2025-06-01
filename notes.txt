@@ -7,11 +7,6 @@ CPU -> Assembly -> C, C++ -> C#, Java, Swift -> Javascript, Python, Ruby -> HTML
 
 
 ------
-# git clone
-git@github.com:ejtek/dotfiles.git
-git@github.com:ejtek/notes.git
-git@github.com:ejtek/c0d3.git
-
 # create temp file
 file_name=$(mktemp)
 echo "Temporary data" > "$tmpfile"
@@ -86,9 +81,9 @@ alt  + .				# paste previous argument
 tar -cvf new_name.tar file_name		# combine into archive, does not compress
 tar -tvf name_of_file.tar		# shows list of files inside tar
 tar -xvf name_of_file			# extract files
+tar -czvf new_name.tar.gz file_name	# combine + compress
 gzip name_of_file			# compress file
 gunzip name_of_file			# decompress file
-tar -czvf new_name.tar.gz file_name	# combine + compress
 
 
 ------
