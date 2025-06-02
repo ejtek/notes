@@ -13,7 +13,6 @@ rlwrap
 
 lsd
 fastfetch
-cpufetch
 lolcat
 batcat
 ripgrep (rg)
@@ -27,8 +26,6 @@ gh            		# github cli
 cht.sh  			# cheat sheet ~/.local/bin
 
 torbrowser-launcher
-python3-venv		# python virtual enviroment
-pyftpdlib   		# python server module
 
 hexchat
 qbittorrent
@@ -36,7 +33,6 @@ vlc
 
 *gdu 		    	# disk usage analyzer
 *vscodium	    	# (.deb)
-*stegosuite	    	# tool to hide information in image files
 *koadic		    	# windows post exploitation tool
 
 
