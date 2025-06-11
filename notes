@@ -18,10 +18,13 @@ echo "Working in $tmpdir"
 # dd command fr iso
 dd bs=4M if=iso_file.iso of=/dev/sdX status=progress oflag=sync
 
+# seaching
+find / -type f -iname "string" 
+find / -path "/timeshift" -prune -o -type f -iname "string"   # ommit directory from search
 
 ------
-apt-key export 5BCF1346 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/i2p2-key.gpg
-
+# awk
+awk '!seen[$0]++' file > new_file           # Remove duplicates
 
 ------
 dpkg-reconfigure openssh-server
@@ -43,25 +46,25 @@ ls *.py | entr python file_name
 
 
 ------
-sudo !!					# redo las command with sudo
-fc					# fix a long command in editor
-disown -a && exit			# exit terminal without killing process
+sudo !!			        		# Redo las command with sudo
+fc				            	# Fix a long command in editor
+disown -a && exit		    	# Exit terminal without killing process
 
 
 ------
 *apropos
-*2> /dev/null				# directs standard error to the void
-lsof -u			 		# list open user files
+*2> /dev/null			    	# Directs standard error to the void
+lsof -u			 	        	# List open user files
 *pushd / popd
-ctrl + r				# reverse search
-ctrl + a,e,u				# line start, end and delete
-&& and ;				# to chain commands
-||					# or
-ctrl + u				# cut to the beginning of line from cursor
-ctrl + k				# cut to the end of line from cursor
-ctrl + w 				# cut backwards by word
-ctrl + y				# paste
-alt  + .				# paste previous argument
+ctrl + r	        			# Reverse search
+ctrl + a,e,u		    		# Line start, end and delete
+&& and ;			        	# Chain commands
+||				            	# Or
+ctrl + u			        	# Cut to the beginning of line from cursor
+ctrl + k			        	# Cut to the end of line from cursor
+ctrl + w 			        	# Cut backwards by word
+ctrl + y			        	# Paste
+alt  + .				        # Paste previous argument
 
 
 ------
@@ -78,12 +81,12 @@ alt  + .				# paste previous argument
 
 ------
 # archive
-tar -cvf new_name.tar file_name		# combine into archive, does not compress
-tar -tvf name_of_file.tar		# shows list of files inside tar
-tar -xvf name_of_file			# extract files
-tar -czvf new_name.tar.gz file_name	# combine + compress
-gzip name_of_file			# compress file
-gunzip name_of_file			# decompress file
+tar -cvf new_name.tar file_name	    	# Combine into archive, does not compress
+tar -tvf name_of_file.tar	        	# Shows list of files inside tar
+tar -xvf name_of_file		        	# Extract files
+tar -czvf new_name.tar.gz file_name 	# Combine + compress
+gzip name_of_file	            		# Compress file
+gunzip name_of_file		            	# Decompress file
 
 
 ------
