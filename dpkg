@@ -1,15 +1,11 @@
-#############
+
 # DPKG
-#############
 
-apt list --installed
-apt search(-cache) (package)
+pacman/yay -Qs <package> - seach locally
+pacman/yay -Ss <package> - search repo
 
-#############
-*kali_dpkg*
 stegseek
 rlwrap
-#############
 
 lsd
 fastfetch
@@ -22,23 +18,11 @@ ufw
 tldr
 bleachbit
 
-gh            		# github cli
-cht.sh  			# cheat sheet ~/.local/bin
-
 torbrowser-launcher
+mpv
 
-hexchat
-qbittorrent
-vlc
+ncdu
+code oss
 
-*gdu 		    	# disk usage analyzer
-*vscodium	    	# (.deb)
-*koadic		    	# windows post exploitation tool
-
-
-#############
-Remove
-#############
-
+## Remove
 geoclue-2.0
-

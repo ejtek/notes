@@ -1,48 +1,50 @@
-## Basic port scan:
+
+# NMAP
+
+**Basic port scan**
+This scans the most common 1000 ports on the target.
 nmap <target>
-## This scans the most common 1000 ports on the target.
 
-## OS detection scan:
+**OS detection scan**
+This enables OS detection, version scanning, script scanning, and traceroute.
 nmap -A <target>
-## This enables OS detection, version scanning, script scanning, and traceroute.
 
-## Version scanning:
+**Version scanning**
+This probes open ports to determine service/version info.
 nmap -sV <target>
-## This probes open ports to determine service/version info.
 
-## Stealth/SYN scan:
+**Stealth/SYN scan**
+This performs a TCP SYN scan, which is relatively unobtrusive and stealthy.
 nmap -sS <target>
-## This performs a TCP SYN scan, which is relatively unobtrusive and stealthy.
 
-## UDP scan:
+**UDP scan**
+This scans for open UDP ports.
 nmap -sU <target>
-## This scans for open UDP ports.
 
-## Ping scan (host discovery):
+**Ping scan (host discovery)**
+This performs a ping scan to discover live hosts without port scanning.
 nmap -sn <target>
-## This performs a ping scan to discover live hosts without port scanning.
 
-## Specific port scan:
+**Specific port scan**
+This scans specific port(s) on the target.
 nmap -p <port(s)> <target>
-## This scans specific port(s) on the target.
 
-## Aggressive scan:
+**Aggressive scan**
+This sets the timing template to "aggressive", speeding up the scan.
 nmap -T4 <target>
-## This sets the timing template to "aggressive", speeding up the scan.
 
-## Script scan:
+**Script scan**
+This uses the default Nmap scripts for scanning.
 nmap -sC <target>
-## This uses the default Nmap scripts for scanning.
 
-## Verbose output:
+**Verbose output**
+This increases the verbosity of the output.
 nmap -v <target>
-## This increases the verbosity of the output.
 
-## Save output to file:
+**Save output to file**
+This saves the scan results in normal format to a file.
 nmap -oN <filename> <target>
-## This saves the scan results in normal format to a file.
 
-## Fast scan:
+**Fast scan**
+This scans fewer ports than the default scan for quicker results.
 nmap -F <target>
-## This scans fewer ports than the default scan for quicker results.
-
