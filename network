@@ -1,13 +1,13 @@
 
-# NETWORKING
+# Networking
 
-**Proxychains config**
+Proxychains config
 /etc/proxychains4.conf
 
-**DNS manual config**
+DNS manual config
 /etc/dhcp/dhclient.comf
 
-**DNS network config**
+DNS network config
 /etc/resolv.config
 
 **Netstat**
@@ -45,4 +45,4 @@ netdiscover -r 192.168.0.0/24
 **Use nmap on target ip**
 nmap 192.168.1.0
 
-**Use browser to navigate http site**
+Use browser to navigate http site

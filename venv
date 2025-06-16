@@ -11,9 +11,9 @@ python -m venv (.venv)
 **Organization/Structure**
 my_project/
 │
-├── .venv/                # Virtual environment (excluded from version control)
-├── src/                  # Source code
-├── data/                 # Data files
-├── tests/                # Test scripts
-├── requirements.txt      # Dependency list
+├── .venv/                - Virtual environment (excluded from version control)
+├── src/                  - Source code
+├── data/                 - Data files
+├── tests/                - Test scripts
+├── requirements.txt      - Dependency list
 └── README.md

@@ -5,35 +5,35 @@
 
 COMMAND [DIRECTORY/][FUZZY_PATTERN]**<TAB>
 
-**Files under the current directory**
+Files under the current directory
 You can select multiple items with TAB key
 vim **<TAB>
 
-**Files under parent directory**
+Files under parent directory
 vim ../**<TAB>
 
-**Files under parent directory that match `fzf`**
+Files under parent directory that match `fzf`
 vim ../fzf**<TAB>
 
-**Files under your home directory**
+Files under your home directory
 vim ~/**<TAB>
 
-**Directories under current directory (single-selection)**
+Directories under current directory (single-selection)
 cd **<TAB>
 
-**Directories under ~/github that match `fzf`**
+Directories under ~/github that match `fzf`
 cd ~/github/fzf**<TAB>
 
-**Process IDs**
+Process IDs
 Can select multiple processes with <TAB> or <Shift-TAB> keys
 kill -9 **<TAB>
 
-**Host names**
+Host names
 For ssh and telnet commands, fuzzy completion for hostnames is provided. The names are extracted from /etc/hosts and ~/.ssh/config.
 ssh **<TAB>
 telnet **<TAB>
 
-**Environment variables / Aliases**
+Environment variables / Aliases
 unset **<TAB>
 export **<TAB>
 unalias **<TAB>

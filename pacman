@@ -22,6 +22,12 @@ pacman -Qm
 **Delete unused packages**
 sudo pacman -Sc
 
+**List package information**
+pacman -Qi
+
+**List package dependencies in tree view**
+pactree <package>
+
 **List all files from package**
 pacman -Ql pkgname
 

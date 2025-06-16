@@ -1,51 +1,51 @@
 
 # MSFCONSOLE
 
-**Interact with sessions**
+Interact with sessions
 sessions -i <id>    
 
-**Save sessionn**
+Save sessionn
 sessions -u <filename>
 
-**Restore session**
+Restore session
 sessions -r <filename>
 
-**Set module's RHOST with databse values**
+Set module's RHOST with databse values
 hosts -R or services -R
 
-**Set global variable**
+Set global variable
 setg RHOSTS x.x.x.x
 
-**Upgrade shell to meterpreter**
+Upgrade shell to meterpreter
 sessions -u <session_id>
 
-**Run and background**
+Run and background
 exploit -z
 
 
 ## PORTS
 
-**exploit/unix/ftp/vsftpd_234_backdoor**
+exploit/unix/ftp/vsftpd_234_backdoor
 **auxiliary/scanner/ftp/ftp_login**
 21 FTP
 
-**auxiliary/scanner/ssh/ssh_login**
+auxiliary/scanner/ssh/ssh_login
 22 SSH
 
-**auxiliary/scanner/telnet/telnet_login**
+auxiliary/scanner/telnet/telnet_login
 23 TELNET
 
-**auxiliary/scanner/smtp/smtp_enum**
+auxiliary/scanner/smtp/smtp_enum
 25 SMTP
 
-**auxiliary/scanner/http/http_version**
-**exploit/multi/http/php_cgi_arg_injection**
+auxiliary/scanner/http/http_version
+exploit/multi/http/php_cgi_arg_injection
 80 HTTP
 
-**auxiliary/scanner/smb/smb_version**
-**exploit/multi/samba/usermap_script**
+auxiliary/scanner/smb/smb_version
+exploit/multi/samba/usermap_script
 139,445 SMB
 
-**rsh-client (rlogin -l root <ip>)**
-**rsh -l <ip> ifconfig**
+rsh-client (rlogin -l root <ip>)
+rsh -l <ip> ifconfig
 512,513,514 exec,login,tcpwrapped

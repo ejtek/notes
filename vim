@@ -1,5 +1,5 @@
 
-# VIM
+# Vim
 
 (esc)			        -Enter command mode
 i				        -Insert mode
@@ -68,10 +68,10 @@ ZZ				        -Save and quit
 :q!			            -Quit without saving
 
 **Code Fold**
-zc                      -This closes (folds) the code at the cursor
-zM                      -This closes all folds in the current window
 zo                      -Open (unfold) the fold at the cursor
+zc                      -Closes (folds) the code at the cursor
 zO                      -Open all folds under the cursor
+zM                      -Closes all folds in the current window
 za                      -Toggle the fold at the cursor (open if closed, close if open)
 zm                      -Increase the fold level by one (close more folds)
 zr                      -Decrease the fold level by one (open more folds)

@@ -218,4 +218,3 @@
 #            "China": "Beijing",
 #            "Japan": "Tokio"}
 #print(capitals.get("USA"))
-
