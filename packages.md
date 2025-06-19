@@ -24,11 +24,12 @@ pinta
 python-pywal16
 reflector-simple
 
-**Arch specific**
+- Arch Specific
 yay
 aurutils
 
-**Pentest tools**
+-Pentest Tools
+macchanger
 metasploit
 proxychains
 torbrowser-launcher
@@ -38,6 +39,7 @@ rlwrap
 nmap (-netcat)
 aircrack-ng
 hashcat
+hydra
 burpsuite
 dirbuster
 social-engineer-toolkit
@@ -45,5 +47,5 @@ kali-wordlists
 seclists
 searxng-docker
 
-**Remove**
+- Remove
 geoclue-2.0
