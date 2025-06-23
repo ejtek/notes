@@ -10,16 +10,16 @@
 - Install specific package
 `sudo pacman -S pkgname`
 
-- Find available packages
+- Search for packages in repo
 `sudo pacman -Ss keyword`
 
-- Find available local packages
+- Search local packages installed
 `sudo pacman -Qs keyword`
 
 - Show manually installed from AUR
 `pacman -Qm`
 
-- Delete unused packages
+- Delete unused packages in cache
 `sudo pacman -Sc`
 
 - List package information
@@ -31,8 +31,11 @@
 - List all files from package
 `pacman -Ql pkgname`
 
-- To remove a package and its dependencies which are not required by any other installed package
-`sudo pacman -Rs package_name`
+- Remove package and its dependencies which are not required by any other installed package
+`sudo pacman -Rns package_name`
+
+- Forcefully remove package wiothout checking for dependencies
+``sudo pacman -Rdd package_name`
 
 - List all packages no longer required as dependencies
 `sudo pacman -Qdt`

@@ -1,4 +1,12 @@
 
+   ██╗    ██╗██╗██╗  ██╗██╗
+   ██║    ██║██║██║ ██╔╝██║
+   ██║ █╗ ██║██║█████╔╝ ██║
+   ██║███╗██║██║██╔═██╗ ██║
+   ╚███╔███╔╝██║██║  ██╗██║
+    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝
+    
+    
         [[notes|Notes]] |
               |- [[vimwiki|VimWiki]]
               |- [[pacman|Pacman]]
@@ -15,6 +23,7 @@
                     |- [[git|Git]]
                     |- [[vim|Vim]]
                     |- [[venv|Venv]]
+                    |- [[xclip|Xclip]]
                     |- [[powershell|Powershell]]
                     |- [[bleachbit|Bleachbit]]
                     
