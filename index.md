@@ -1,12 +1,13 @@
 
-   ██╗    ██╗██╗██╗  ██╗██╗
-   ██║    ██║██║██║ ██╔╝██║
-   ██║ █╗ ██║██║█████╔╝ ██║
-   ██║███╗██║██║██╔═██╗ ██║
-   ╚███╔███╔╝██║██║  ██╗██║
-    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝
-    
-    
+     ============================
+     = ██╗    ██╗██╗██╗  ██╗██╗ =
+     = ██║    ██║██║██║ ██╔╝██║ =
+     = ██║ █╗ ██║██║█████╔╝ ██║ =
+     = ██║███╗██║██║██╔═██╗ ██║ =
+     = ╚███╔███╔╝██║██║  ██╗██║ =
+     =  ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝ =
+     ============================
+
         [[notes|Notes]] |
               |- [[vimwiki|VimWiki]]
               |- [[pacman|Pacman]]
@@ -14,9 +15,11 @@
               |- [[i3wm|i3wm]]
               |- [[ssh|SSH]]
               |- [[apache|Apache]]
+              |- [[googledork|GoogleDorking]]
               
         SHELL |
-              |- [[zsh|ZSH]]
+              |- Bash
+              |- [[zsh|Zsh]]
               
         Commandline |
                     |- [[fzf|Fzf]]
@@ -29,10 +32,11 @@
                     
         Programming |
                     |- [[bash|Bash]]
-                    |- Python
                     |- [[html|HTML]]
+                    |- Python
                     
         Pentesting |
+                   |- [[macchanger|Macchanger]]
                    |- [[network|Network]]
                    |- [[nmap|Nmap]]
                    |- [[john|John]]
