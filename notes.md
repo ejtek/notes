@@ -60,6 +60,19 @@ CPU -> Assembly -> C, C++ -> C#, Java, Swift -> Javascript, Python, Ruby -> HTML
 `ctrl + y`		        	- Paste
 `alt  + .`			        - Paste previous argument
 
+- Appending files
+`echo "text here" >> /path/to/file/somefile.txt`
+`printf "text here\n" >> /path/to/file/somefile.txt`
+
+```cat <<EOF >> file/path/somefile.txt
+This is line one
+This is line two
+EOF
+```
+`echo "text here" | tee -a file/path/somefile.txt > /dev/null`
+`sed -i '$ a text here' file/path/somefile.txt`
+`awk '1; END {print "text here"}' file/path/somefile.txt > temp && mv temp file/path/somefile.txt`
+
 ```
 - Chmod
 000 = --- = 0
