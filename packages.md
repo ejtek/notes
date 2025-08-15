@@ -4,7 +4,7 @@
 pacman/yay -Qs <package> - seach locally
 pacman/yay -Ss <package> - search repo
 
-checkupdates
+pacman-contrib
 lsd
 ripgrep (rg)
 bat & bat-extras
