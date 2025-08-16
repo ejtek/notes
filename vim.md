@@ -1,191 +1,194 @@
 
 # Vim
 
-Enter command mode
-`(esc)`
+```
+Enter command mode  
+(esc)
 
-Insert mode
-`i`
+Insert mode  
+i
 
-Visual mode
-`v`
+Visual mode  
+v
 
-Visual block mode
-`ctrl + v`
+Visual block mode  
+ctrl + v
+```
 
-
-- Files & Search
-Insert file from path
+**Files & Search**  
+Insert file from path  
 `^x^f`
 
-For just this file
+For just this file  
 `^x^n`
 
-Search and replace (g=reaplce all, c=confirmation)
+Search and replace (g=reaplce all, c=confirmation)  
 `:%s/search/replace/gc`
 
 
-- Tabs
-**vim -p from the command line opens multiple files**
+**Tabs**  
+vim -p from the command line opens multiple files  
 `:tabedit <file>`
 
-Back tab
+Back tab  
 `gt`
 
-Forward tab
+Forward tab  
 `gT`
 
-Tab by number
+Tab by number  
 `<#>gt`
 
 
-- Buffer
-Next buffer
+**Buffer**  
+Next buffer  
 `:bn`
 
-Previous buffer
+Previous buffer  
 `:bp`
 
-Delete buffer
+Delete buffer  
 `:bd`
 
-Adds new buffer in background
+Adds new buffer in background  
 `:badd`
 
-Edit file
+Edit file  
 `:e`
 
-Read file
+Read file  
 `:r`
 
 
-- Split Window
-Split horizontally/vertically
+**Split Window**  
+Split horizontally/vertically  
 `:split/vsplit`
 
-Switch window
+Switch window  
 `ctrl ww`
 
 
-- Navigation
-Move left, down, up, right
+**Navigation**  
+Move left, down, up, right  
 `h, j, k, l`
 
-Go to last line
+Go to last line  
 `G`
 
-Go to first line
+Go to first line  
 `gg`
 
--Go to 7th line (etc)
+Go to 7th line (etc)  
 `:7`
 
-Go to "text"
+Go to "text"  
 `/text`
 
-Repeat last search
+Repeat last search  
 `n`
 
-Go to next word
+Go to next word  
 `w`
 
-Go to beginning of line
+Go to beginning of line  
 `0`
 
-Go to end of line
+Go to end of line  
 `$`
 
 
-- Editing
-Insert at the beginning of line
+**Editing**  
+Insert at the beginning of line  
 `I`
 
-Append
+Append  
 `a`
 
-Append to end of line
+Append to end of line  
 `A`
 
-Delete character at cursor
+Delete character at cursor  
 `x`
 
-Open new line below cursor
+Open new line below cursor  
 `o`
 
-Open new line above cursor
+Open new line above cursor  
 `O`
 
-Cut current line
+Cut current line  
 `y`
 
-Copies current line
+Copies current line  
 `yy`
 
-Paste above cursor
+Paste above cursor  
 `P`
 
-Paste below cursor
+Paste below cursor  
 `p`
 
-Delete line
+Delete line  
 `dd`
 
-Delete word
+Delete word  
 `dw`
 
-Delete ALL lines
+Delete ALL lines  
 `dG`
 
-Change word
+Change word  
 `cw`
 
-Change to a character
+Change to a character  
 `ct`
 
-Undo last change
+Undo last change  
 `u`
 
-Repeat last change
+Repeat last change  
 `.`
 
+Move line(s)  
+`m+1` , `m-2` or `visual mode, select lines, :m target line number`
 
-- Save & Quit
-Save file
+**Save & Quit**  
+Save file  
 `:w`
 
-Save as "file"
+Save as "file"  
 `:w "file"`
 
-Quit
+Quit  
 `:q`
 
-Save and quit
+Save and quit  
 `:wq` or `ZZ`
 
-Quit without saving
+Quit without saving  
 `:q!`
 
 
-- Code Fold
-Open (unfold) the fold at the cursor
+**Code Fold**  
+Open (unfold) the fold at the cursor  
 `zo`
 
-loses (folds) the code at the cursor
+loses (folds) the code at the cursor  
 `zc`
 
-Open all folds under the cursor
+Open all folds under the cursor  
 `zO`
 
--Closes all folds in the current window
+Closes all folds in the current window  
 `zM`
 
-Toggle the fold at the cursor (open if closed, close if open)
+Toggle the fold at the cursor (open if closed, close if open)  
 `za`
 
-Increase the fold level by one (close more folds)
+Increase the fold level by one (close more folds)  
 `zm`
 
-Decrease the fold level by one (open more folds)
+Decrease the fold level by one (open more folds)  
 `zr`
 
 ```
