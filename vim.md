@@ -1,78 +1,195 @@
 
 # Vim
 
-`(esc)`			        -Enter command mode
-`i`				        -Insert mode
-`v`				        -Visual mode
-`ctrl + v`                -Visual block mode
+Enter command mode
+`(esc)`
+
+Insert mode
+`i`
+
+Visual mode
+`v`
+
+Visual block mode
+`ctrl + v`
+
 
 - Files & Search
-`^x^f`			        -Insert file from path
-`^x^n`			        -For just this file
-`:%s/search/replace/gc`   -Search and replace (g=reaplce all, c=confirmation)
+Insert file from path
+`^x^f`
+
+For just this file
+`^x^n`
+
+Search and replace (g=reaplce all, c=confirmation)
+`:%s/search/replace/gc`
+
 
 - Tabs
 **vim -p from the command line opens multiple files**
 `:tabedit <file>`
-`gt`                      -Back tab
-`gT`                      -Forward tab
-`<#>gt`                   -Tab by number
+
+Back tab
+`gt`
+
+Forward tab
+`gT`
+
+Tab by number
+`<#>gt`
+
 
 - Buffer
-`:bn`			        -Next buffer
-`:bp`			        -Previous buffer
-`:bd`			        -Delete buffer
-`:badd`	   		        -Adds new buffer in background
-`:e`			        -Edit file
-`:r`			        -Read file
+Next buffer
+`:bn`
+
+Previous buffer
+`:bp`
+
+Delete buffer
+`:bd`
+
+Adds new buffer in background
+`:badd`
+
+Edit file
+`:e`
+
+Read file
+`:r`
+
 
 - Split Window
-`:split/vsplit`	        -Split horizontally/vertically
-`ctrl ww`		        -Switch window
+Split horizontally/vertically
+`:split/vsplit`
+
+Switch window
+`ctrl ww`
+
 
 - Navigation
-`h, j, k, l`	        -Move left, down, up, right
-`G`				        -Go to last line
-`gg`			        -Go to first line
-`:7`			        -Go to 7th line (etc)
-`/text` 		        -Go to "text"
-`n`				        -Repeat last search
-`w`				        -Go to next word
-`0`				        -Go to beginning of line
-`$`				        -Go to end of line
+Move left, down, up, right
+`h, j, k, l`
+
+Go to last line
+`G`
+
+Go to first line
+`gg`
+
+-Go to 7th line (etc)
+`:7`
+
+Go to "text"
+`/text`
+
+Repeat last search
+`n`
+
+Go to next word
+`w`
+
+Go to beginning of line
+`0`
+
+Go to end of line
+`$`
+
 
 - Editing
-`I`				        -Insert at the beginning of line
-`a`				        -Append
-`A`				        -Append to end of line
-`x`				        -Delete character at cursor
-`o`				        -Opned new line below cursor
-`O`				        -Opend new line above cursor
-`y`				        -Cut current line
-`yy`				    -Copies current line
-`P`				        -Paste above cursor
-`p`				        -Paste below cursor
-`dd` 				    -Delete line
-`dw`		 		    -Delete word
-`dG`                    -Delete ALL lines
-`cw`				    -Change word
-`ct`				    -Change to a character
-`u`				        -Undo last change
-`.`				        -Repeat last change
+Insert at the beginning of line
+`I`
+
+Append
+`a`
+
+Append to end of line
+`A`
+
+Delete character at cursor
+`x`
+
+Open new line below cursor
+`o`
+
+Open new line above cursor
+`O`
+
+Cut current line
+`y`
+
+Copies current line
+`yy`
+
+Paste above cursor
+`P`
+
+Paste below cursor
+`p`
+
+Delete line
+`dd`
+
+Delete word
+`dw`
+
+Delete ALL lines
+`dG`
+
+Change word
+`cw`
+
+Change to a character
+`ct`
+
+Undo last change
+`u`
+
+Repeat last change
+`.`
+
 
 - Save & Quit
-`:w`				    -Save file
-`:w "file"`		        -Save as "file"
-`:q`			        -Quit
-`:wq`			        -Save and quit
-`ZZ`			        -Save and quit	
-`:q!`			        -Quit without saving
+Save file
+`:w`
+
+Save as "file"
+`:w "file"`
+
+Quit
+`:q`
+
+Save and quit
+`:wq` or `ZZ`
+
+Quit without saving
+`:q!`
+
 
 - Code Fold
-`zo`                      -Open (unfold) the fold at the cursor
-`zc`                      -Closes (folds) the code at the cursor
-`zO`                      -Open all folds under the cursor
-`zM`                      -Closes all folds in the current window
-`za`                      -Toggle the fold at the cursor (open if closed, close if open)
-`zm`                      -Increase the fold level by one (close more folds)
-`zr`                      -Decrease the fold level by one (open more folds)
+Open (unfold) the fold at the cursor
+`zo`
+
+loses (folds) the code at the cursor
+`zc`
+
+Open all folds under the cursor
+`zO`
+
+-Closes all folds in the current window
+`zM`
+
+Toggle the fold at the cursor (open if closed, close if open)
+`za`
+
+Increase the fold level by one (close more folds)
+`zm`
+
+Decrease the fold level by one (open more folds)
+`zr`
+
+```
+Adding/Removing hash in multiple lines
+In visual mode, select lines, x to delete, esc
+in visual mode, select lines, shift i + #, esc 
+```
