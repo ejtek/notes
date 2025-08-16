@@ -54,6 +54,7 @@
 `p`				        -Paste below cursor
 `dd` 				    -Delete line
 `dw`		 		    -Delete word
+`dG`                    -Delete ALL lines
 `cw`				    -Change word
 `ct`				    -Change to a character
 `u`				        -Undo last change
