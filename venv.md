@@ -5,7 +5,7 @@
 
 - If you want the script to run using the packages and environment of your virtual environment, you should invoke the Python interpreter from the virtual environment and pass it the path to your script, like this:
 
-`python -m venv (.venv)`
+`python -m venv (.venv)`  
 `/path/to/venv/bin/python /absolute/path/to/your_script.py`
 
 **Organization/Structure**

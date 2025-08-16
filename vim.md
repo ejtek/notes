@@ -135,7 +135,7 @@ Delete word
 `dw`
 
 Delete ALL lines  
-`dG`
+`dG` or `:%d`
 
 Change word  
 `cw`

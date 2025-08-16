@@ -133,51 +133,51 @@ sudo msfconsole -r setup.rc
 
 ## Sessions
 
-- Interact with sessions
+- Interact with sessions  
 `sessions -i <id>`
 
-- Save sessionn
+- Save sessionn  
 `sessions -u <filename>`
 
-- Restore session
+- Restore session  
 `sessions -r <filename>`
 
-- Set module's RHOST with databse values
+- Set module's RHOST with databse values  
 `hosts -R or services -R`
 
-- Set global variable
+- Set global variable  
 `setg RHOSTS x.x.x.x`
 
-- Upgrade shell to meterpreter
+- Upgrade shell to meterpreter  
 `sessions -u <session_id>`
 
-- Run and background
+- Run and background  
 `exploit -z`
 
 
 ## PORTS
 
-- 21 FTP
-`exploit/unix/ftp/vsftpd_234_backdoor`
+- 21 FTP  
+`exploit/unix/ftp/vsftpd_234_backdoor`  
 `auxiliary/scanner/ftp/ftp_login`
 
-- 22 SSH
+- 22 SSH  
 `auxiliary/scanner/ssh/ssh_login`
 
-- 23 TELNET
+- 23 TELNET  
 `auxiliary/scanner/telnet/telnet_login`
 
-- 25 SMTP
+- 25 SMTP  
 `auxiliary/scanner/smtp/smtp_enum`
 
-- 80 HTTP
-`auxiliary/scanner/http/http_version`
+- 80 HTTP  
+`auxiliary/scanner/http/http_version`  
 `exploit/multi/http/php_cgi_arg_injection`
 
-- 139,445 SMB
-`auxiliary/scanner/smb/smb_version`
+- 139,445 SMB  
+`auxiliary/scanner/smb/smb_version`  
 `exploit/multi/samba/usermap_script`
 
-- 512,513,514 exec,login,tcpwrapped
-`rsh-client (rlogin -l root <ip>)`
+- 512,513,514 exec,login,tcpwrapped  
+`rsh-client (rlogin -l root <ip>)`  
 `rsh -l <ip> ifconfig`
