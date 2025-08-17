@@ -16,11 +16,14 @@ pacman/yay -Ss <package> - search repo
 - tldr
 - bleachbit
 - code-oss
+- ranger
+- ristretto
 - imagemagick
 - ffmpeg
 - mpv
 - ncdu
 - fastfetch
+- qutebrowser
 - i3lock-color
 - lolcat
 - pinta
