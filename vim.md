@@ -152,6 +152,19 @@ Repeat last change
 Move line(s)  
 `m+1` , `m-2` or `visual mode, select lines, :m target line number`
 
+Upper/lowercase word  
+`gUw` / `guw`
+
+Upper/lowercase line  
+`gUU` / `guu`
+
+Upper/lowercase from cursor to end of lines  
+`gU$` / `gu$`
+
+Upper/Lowercase visual selection  
+`gU` / `gu`
+
+
 **Save & Quit**  
 Save file  
 `:w`
