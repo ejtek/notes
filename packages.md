@@ -22,7 +22,6 @@ metasploit
 nmap (-netcat)  
 proxychains  
 rlwrap  
-searxng-docker  
 social-engineer-toolkit  
 steghide  
 stegseek  
