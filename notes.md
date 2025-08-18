@@ -68,7 +68,7 @@ CPU -> Assembly -> C, C++ -> C#, Java, Swift -> Javascript, Python, Ruby -> HTML
 `printf "text here\n" >> /path/to/file/somefile.txt`
 
 ```  
-cat <<EOF >> file/path/somefile.txt
+cat <<EOF > file/path/somefile.txt
 This is line one
 This is line two
 EOF

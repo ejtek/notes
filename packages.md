@@ -5,53 +5,32 @@
 pacman/yay -Qs <package> - seach locally
 pacman/yay -Ss <package> - search repo
 ```
-- pacman-contrib
-- arch-updates
-- lsd
-- ripgrep (rg)
-- bat & bat-extras
-- entr
-- fzf
-- ufw
-- tldr
-- bleachbit
-- code-oss
-- ranger
-- ristretto
-- imagemagick
-- ffmpeg
-- mpv
-- ncdu
-- fastfetch
-- qutebrowser
-- i3lock-color
-- lolcat
-- pinta
-- python-pywal16
-- reflector-simple
+```
+To install packages from list use:
+sudo pacman -S --needed - < pkglist.txt
+yay -S --needed - < aurlist.txt
+```
 
-## Arch Specific
-- yay
-- aurutils
+## Pentest Tools  
+aircrack-ng  
+burpsuite  
+dirbuster  
+hashcat  
+hydra  
+macchanger  
+metasploit  
+nmap (-netcat)  
+proxychains  
+rlwrap  
+searxng-docker  
+social-engineer-toolkit  
+steghide  
+stegseek  
+torbrowser-launcher  
 
-- Pentest Tools
-- macchanger
-- metasploit
-- proxychains
-- torbrowser-launcher
-- steghide
-- stegseek
-- rlwrap
-- nmap (-netcat)
-- aircrack-ng
-- hashcat
-- hydra
-- burpsuite
-- dirbuster
-- social-engineer-toolkit
-- kali-wordlists
-- seclists
-- searxng-docker
+## Wordlists  
+kali-wordlists  
+seclists  
 
-## Remove
-- geoclue-2.0
+## Remove  
+geoclue-2.0  

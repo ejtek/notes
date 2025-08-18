@@ -128,6 +128,9 @@ Paste above cursor
 Paste below cursor  
 `p`
 
+Delete range of lines  
+`:#-#d`
+
 Delete line  
 `dd`
 
@@ -136,6 +139,9 @@ Delete word
 
 Delete ALL lines  
 `dG` or `:%d`
+
+Sort range of lines  
+`:#-#sort`
 
 Change word  
 `cw`
