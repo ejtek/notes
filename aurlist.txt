@@ -18,4 +18,7 @@ steghide 0.5.1-13
 stegseek 0.6-1
 ttf-comic-sans 5.14-1
 ttf-comic-shanns-nerd 2.1.0-1
+volantes-cursors-git r7.b13a4bb-1
+vscodium-bin 1.103.15539-1
 yay 12.5.0-1
+yay-debug 12.5.0-1

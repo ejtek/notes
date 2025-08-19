@@ -11,6 +11,13 @@ sudo pacman -S --needed - < pkglist.txt
 yay -S --needed - < aurlist.txt
 ```
 
+## VScodium extensions  
+dracula official  
+find it easier  
+night owl  
+prettier  
+python
+
 ## Pentest Tools  
 aircrack-ng  
 burpsuite  
