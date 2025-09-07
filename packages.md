@@ -24,19 +24,36 @@ burpsuite
 dirbuster  
 hashcat  
 hydra  
+john  
 macchanger  
 metasploit  
-nmap (-netcat)  
+netcat  
+nmap  
 proxychains  
+reaver  
+recon-ng  
 rlwrap  
 social-engineer-toolkit  
 steghide  
 stegseek  
+sqlmap  
+theharvester-git  
 torbrowser-launcher  
+traceroute  
 
 ## Wordlists  
 kali-wordlists  
 seclists  
+
+## Virtual Box  
+virtualbox  
+virtualbox-guest-utils
+virtualbox-host-modules-arch  
+
+## Fun
+cmatrix  
+hollywood  
+lolcat  
 
 ## Remove  
 geoclue-2.0  
